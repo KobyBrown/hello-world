@@ -1,0 +1,33 @@
+body {width: 800px; margin: 0 auto;}
+
+body {background-image: url(https://dport96.github.io/ITM352/morea/030.ui-basics/phone_globe.jpg); background-repeat: no-repeat}
+img {width: 200px; height: 200px;}
+
+h1, h2 {text-align: center;
+color: yellow;}
+
+p {color: yellow;}
+
+main {display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;}
+
+div {border: 5px solid black; display: flex;}
+
+footer {text-align: center;color: yellow;
+bottom: auto;}
+
+.rotate img
+{
+  animation: rotation .3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
